@@ -5,8 +5,6 @@ import { Checkmark } from "@styled-icons/evaicons-solid/Checkmark";
 import { useDispatch } from "react-redux";
 import { removeTodo, completeTodo, Todo } from "../redux/todoReducer";
 
-
-
 interface TodoCardProps {
   todo: Todo;
 }

@@ -5,7 +5,6 @@ import TodoCard from "./components/TodoCard";
 import TodoForm from "./components/TodoForm";
 import { FlexWrapper } from "./components/wrappers/FlexWrapper";
 import { Box } from "./components/wrappers/Box";
-import { Typography } from "./components/typography/Typography";
 
 const HomePage = () => {
   const todos = useSelector((state: RootState) => state.todos.todos);
@@ -15,7 +14,6 @@ const HomePage = () => {
   return (
     <PageWrapper>
       <Title>Todo list</Title>
-      {/* <Typography tag="h1">Todo list</Typography> */}
       <FlexWrapper $gap="20px">
         <Box $border="2px solid #00adb5">
           <FlexWrapper $direction="column" $gap="20px">

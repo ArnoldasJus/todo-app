@@ -4,7 +4,6 @@ import { useDispatch } from "react-redux";
 import { addTodo } from "../redux/todoReducer";
 import { FlexWrapper } from "./wrappers/FlexWrapper";
 
-
 const TodoForm: React.FC = () => {
   const dispatch = useDispatch();
 
@@ -51,28 +50,9 @@ const Button = styled.button`
   font-size: 1rem;
 `;
 
-// const Title2 = styled.h2`
-//   font-family: "Roboto Mono", monospace;
-//   font-size: 1rem;
-//   text-align: center;
-//   color: #00adb5;
-//   padding: 2rem 0;
-//   margin: 0;
-// `;
-
 const Paragraph = styled.p`
   font-family: "Roboto Mono", monospace;
   color: #00adb5;
   font-size: 1rem;
   margin: 0;
 `;
-
-// const CheckmarkIcon = styled(Checkmark)`
-//   float: right;
-//   cursor: pointer;
-// `;
-
-// const DeleteIcon = styled(Delete)`
-//   float: right;
-//   cursor: pointer;
-// `;
